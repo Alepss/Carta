@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Me Encantas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heart"></div>
+        <div class="letter">Minerva:
+            <br><br>Hoy, como todos los días, no puedo dejar de pensar en ti. No importa cuándo leas esto, en qué momento o qué día sea, es seguro que estaré pensando en ti.
+            <br><br>Recuerdo cómo me enviabas cartas en la primaria. No estoy seguro de si alguna vez te respondí, y por eso he escrito esta carta: para enmendar lo que no hice hace 18 años. En ese entonces, me hacías sentir igual de loco que ahora, pero éramos solo niños que no sabían lo que era el amor. Ahora, aquí estoy, sintiendo lo mismo que en aquel entonces e incluso más.
+            <br><br>No sé cuántas veces te he dicho lo increíble que eres, no solo para mí, sino para cualquiera que tenga el placer de conocerte. Eres hermosa; nunca había conocido a una mujer tan hermosa como tú. Me encantas: tu cuerpo, tus ojos, tu risa, tu sonrisa, todo en ti es perfecto. Pero tu belleza no es solo física; tu ser es igualmente hermoso, y eso es lo que me ha enamorado.
+            <br><br>Puede que esto suene intenso, pero eres la primera persona con la que sueño tener una vida juntos. Sueño con hacerte feliz toda la vida y construir una historia juntos. Estoy dispuesto a dar mi vida por ti, porque vales cada momento y más.
+            <br><br>Gracias a ti, he encontrado la fuerza para seguir adelante en muchas situaciones. Me inspiras a ser mejor cada día porque mereces lo mejor, y eso es lo que quiero darte.<br>
+            Quiero estar a tu lado en todos tus momentos, tanto buenos como malos. Ten en cuenta que siempre tendrás a alguien dispuesto a darlo todo por ti. Puedes contar conmigo para todo; quiero apoyarte y estar a tu lado siempre.
+             <br><br> Ojala algun día pueda llamarte mi novia y si nos ponemos a soñar mi esposa y aquí estoy para ti, soy alguien que quiere todo contigo y solamente contigo.
+        </div>
+    </div>
+
+    <script>
+       const heart = document.querySelector('.heart');
+const letter = document.querySelector('.letter');
+
+heart.addEventListener('click', function() {
+  letter.classList.toggle('visible'); // Mostramos la carta
+  heart.classList.toggle('clicked'); // Aplicamos la clase clicked al mismo tiempo
+});
+      </script>
+</body>
+</html>
