@@ -17,17 +17,22 @@
             <br><br>Gracias a ti, he encontrado la fuerza para seguir adelante en muchas situaciones. Me inspiras a ser mejor cada día porque mereces lo mejor, y eso es lo que quiero darte.<br>
             Quiero estar a tu lado en todos tus momentos, tanto buenos como malos. Ten en cuenta que siempre tendrás a alguien dispuesto a darlo todo por ti. Puedes contar conmigo para todo; quiero apoyarte y estar a tu lado siempre.
              <br><br> Ojala algun día pueda llamarte mi novia y si nos ponemos a soñar mi esposa y aquí estoy para ti, soy alguien que quiere todo contigo y solamente contigo.
+            </div>
+            <audio id="audio" src="cancion.mp3" loop></audio>
         </div>
-    </div>
 
     <script>
+      
        const heart = document.querySelector('.heart');
-const letter = document.querySelector('.letter');
+       const letter = document.querySelector('.letter');
+       const audio = document.getElementById('audio');
 
-heart.addEventListener('click', function() {
-  letter.classList.toggle('visible'); // Mostramos la carta
-  heart.classList.toggle('clicked'); // Aplicamos la clase clicked al mismo tiempo
-});
+        heart.addEventListener('click', function() {
+        letter.classList.toggle('visible'); // Mostramos la carta
+        heart.classList.toggle('clicked'); // Aplicamos la clase clicked al mismo tiempo
+        audio.play();
+        });
       </script>
+
 </body>
 </html>
